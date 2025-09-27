@@ -5,6 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { Navigate } from 'react-router-dom';
 
 const Login = () => {
+  // LOGIN PAGE
   const navigate = useNavigate();
   const [user, setUser] = useState([]);
   const [username, setUsername] = useState();
