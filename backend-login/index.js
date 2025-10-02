@@ -9,7 +9,6 @@ dotenv.config();
 const App = express();
 App.use(express.json())
 
-App.use(cors())
 App.use(cors({
   origin: 'https://login-lake-five.vercel.app', // your frontend URL
   methods: ['POST', 'GET'],
