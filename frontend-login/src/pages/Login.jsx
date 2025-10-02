@@ -10,7 +10,7 @@ const Login = () => {
   const [user, setUser] = useState([]);
   const [username, setUsername] = useState();
   const [password, setPassword] = useState();
-  const GETURL = "https://login-backend-nine.vercel.app/api/user"
+  const GETURL = "https://login-backend-nine.vercel.app"
   const usernameInput = (event) =>{
     return setUsername(event.target.value.toLowerCase());
   }
