@@ -11,7 +11,7 @@ App.use(express.json())
 
 App.use(cors())
 App.use(cors({
-  origin: 'http://localhost:5173', // your frontend URL
+  origin: 'https://login-lake-five.vercel.app', // your frontend URL
   methods: ['POST', 'GET'],
   allowedHeaders: ['Content-Type']
 }));
