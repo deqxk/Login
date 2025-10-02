@@ -28,6 +28,9 @@ mongoose.connect(process.env.MONGO_URI)
     console.error("Connection Failed:", error);
 
   });
+App.get("/", (req, res) => {
+  res.send("Backend is running ✅");
+});
 // GET METHOD IS USED HERE
 App.get('/api/user', async (req,res)=>{
     try{
